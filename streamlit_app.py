@@ -15,7 +15,7 @@ device = torch.device('cpu')
 
 st.set_page_config(page_title="Functional Clustering Analysis Tool", layout="wide")
 
-plt.rcParams["font.family"] = ["DejaVu Sans", "Arial", "sans-serif"]
+plt.rcParams["font.family"] = ["DejaVu Sans", "sans-serif"]
 plt.rcParams["axes.unicode_minus"] = False
 
 if 'data' not in st.session_state:
@@ -947,4 +947,5 @@ def main():
 
         
 if __name__ == "__main__":
+
     main()
